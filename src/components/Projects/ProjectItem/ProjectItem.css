@@ -1,0 +1,93 @@
+.project {
+	padding: 0 0.3em;
+	margin: 1.5em 0;
+}
+
+.project img {
+	width: 100%;
+	margin-bottom: 0.2em;
+}
+
+.project p {
+	color: var(--dark-grey);
+	margin: 0.3em 0 1em 0;
+}
+
+.project .p-details {
+	background-color: var(--white);
+	padding-top: 1em;
+}
+
+.project .p-details h3,
+.project .p-details p {
+	padding: 0 1em;
+}
+
+.project .p-details .p-links {
+	text-transform: uppercase;
+	font-weight: 600;
+	display: flex;
+	border-top: 2px solid var(--grey);
+}
+
+.project .p-links a {
+	color: var(--main-color);
+	width: 100%;
+	padding: 1em 0;
+	text-align: center;
+}
+
+@media only screen and (min-width: 540px) {
+	.project {
+		display: flex;
+		justify-content: center;
+		margin: 0.4em 0;
+		padding: 0;
+	}
+
+	.project:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+
+	.project > * {
+		box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.16);
+		-webkit-box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.16);
+		-moz-box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.16);
+	}
+
+	.project img {
+		margin-bottom: 0;
+		flex-basis: 33%;
+		margin: 0 0.4em;
+		width: 0;
+	}
+
+	.project p {
+		margin: 0;
+	}
+
+	.project .p-details h3,
+	.project .p-details p {
+		padding: 0;
+	}
+
+	.project .p-details {
+		flex-basis: 66%;
+		padding: 1em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.project .p-details .p-links {
+		border-top: unset;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.project .p-links a {
+		width: initial;
+		padding: 0;
+		text-align: center;
+	}
+}

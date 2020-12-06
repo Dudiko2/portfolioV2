@@ -1,0 +1,5 @@
+.cache
+.vscode
+build
+devBuild
+node_modules

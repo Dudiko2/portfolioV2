@@ -1,0 +1,22 @@
+#Projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--grey);
+}
+
+#Projects h1 {
+	margin: 0.5em 0 0 0;
+	color: var(--main-color);
+}
+
+@media only screen and (min-width: 540px) {
+	#Projects {
+		padding: 2em 0;
+	}
+
+	#project-list {
+		margin: 2em 0;
+	}
+}

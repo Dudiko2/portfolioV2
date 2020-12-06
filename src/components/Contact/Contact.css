@@ -1,0 +1,18 @@
+#Contact {
+	background-color: var(--black);
+	color: var(--white);
+	padding: var(--doc-pad);
+}
+
+#Contact a {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+#Contact .initials {
+	color: var(--black);
+	-webkit-text-stroke-width: 0.02em;
+	-webkit-text-stroke-color: var(--white);
+	font-size: 1.1em;
+	text-align: center;
+}

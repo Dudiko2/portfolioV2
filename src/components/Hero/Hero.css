@@ -1,0 +1,79 @@
+#Hero {
+	background-color: var(--main-color);
+	color: var(--white);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+}
+
+#Hero #media-links svg {
+	width: 2em;
+	fill: var(--white);
+}
+
+#hex {
+	display: none;
+}
+
+#media-links {
+	margin: 1em 0;
+	display: flex;
+	justify-content: center;
+}
+
+#media-links > a {
+	margin: 0 0.5em;
+}
+
+#scroller {
+	position: absolute;
+	bottom: 0.5em;
+}
+
+#scroller svg {
+	width: 2em;
+}
+
+@media only screen and (min-width: 540px) {
+	#hex {
+		display: block;
+		width: min(300px, 30%);
+		transform: translateY(-6%);
+	}
+
+	#hex svg {
+		width: 100%;
+	}
+
+	#media-links {
+		justify-content: flex-start;
+	}
+
+	#media-links > a {
+		margin-left: 0;
+	}
+
+	#hero-text {
+		font-size: 20px;
+	}
+
+	#scroller svg {
+		width: 1.6em;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#Hero #media-links svg {
+		width: 1.8em;
+		opacity: 0.5;
+		transition: opacity 0.5s ease, transform 0.3s ease-out;
+	}
+
+	#Hero #media-links svg:hover {
+		opacity: 1;
+		transform: translateY(-7%);
+	}
+}

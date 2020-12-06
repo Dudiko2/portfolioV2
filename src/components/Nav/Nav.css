@@ -1,0 +1,22 @@
+#Nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: var(--doc-pad);
+	z-index: 100;
+}
+
+#Nav .initials {
+	color: var(--main-color);
+	-webkit-text-stroke-width: 0.02em;
+	-webkit-text-stroke-color: var(--white);
+	font-size: 1.1em;
+}
+
+#Nav nav a {
+	color: var(--white);
+	margin-left: 1em;
+}

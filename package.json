@@ -1,0 +1,23 @@
+{
+	"name": "website",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"scripts": {
+		"start": "parcel public/index.html -d ./devBuild/",
+		"build": "parcel build public/index.html -d ./build/ --public-url ./",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.3",
+		"@babel/plugin-transform-react-jsx": "^7.12.5",
+		"@babel/preset-env": "^7.12.1",
+		"parcel-bundler": "^1.12.4"
+	},
+	"dependencies": {
+		"preact": "^10.5.5"
+	}
+}
