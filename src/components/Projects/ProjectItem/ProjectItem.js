@@ -4,7 +4,7 @@ import "./ProjectItem.css";
 const ProjectItem = ({ isEven }) => {
 	return (
 		<div className={`project`}>
-			<img src="https://via.placeholder.com/600/" />
+			<img width="30" src="https://via.placeholder.com/600/" />
 			<div className="p-details">
 				<h3>name</h3>
 				<p>

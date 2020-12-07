@@ -10,9 +10,7 @@
 }
 
 #Contact .initials {
-	color: var(--black);
-	-webkit-text-stroke-width: 0.02em;
-	-webkit-text-stroke-color: var(--white);
+	color: var(--white);
 	font-size: 1.1em;
 	text-align: center;
 }

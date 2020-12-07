@@ -49,6 +49,10 @@
 		flex-direction: row-reverse;
 	}
 
+	.project:nth-child(even) img {
+		margin: 0 0 0 0.4em;
+	}
+
 	.project > * {
 		box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.16);
 		-webkit-box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.16);
@@ -58,7 +62,7 @@
 	.project img {
 		margin-bottom: 0;
 		flex-basis: 33%;
-		margin: 0 0.4em;
+		margin: 0 0.4em 0 0;
 		width: 0;
 	}
 
